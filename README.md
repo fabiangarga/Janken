@@ -9,6 +9,8 @@
 ## TODO :
  - Fix Saving
  - Separate EF from Presentation Layer (Move to DAL / Core)
+ - Unit Testing on backend
+ - E2E Testing
  
  ## Tested on:
  - VS Mac
