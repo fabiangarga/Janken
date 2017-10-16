@@ -1,0 +1,12 @@
+<div class="col-sm-8 col-sm-offset-2">
+    <input type="text" class="form-control" id="name" required [(ngModel)]="player1" name="player1" placeholder="Player 1" minlength="2">
+    <input type="text" class="form-control" id="name" required [(ngModel)]="player2" name="player2" placeholder="Player 2" minlength="2">
+    <p *ngIf="error" class="bg-danger">
+        We must ensure that the each player have a name...
+    </p>
+
+    <button class="submit" (click)="startGame()">Start</button>
+
+    <button class="submit" (click)="scoresGame()">Scores</button>
+
+</div>

@@ -1,0 +1,50 @@
+.navbar {
+    border-radius: 0px;
+    border-bottom: 4px solid #ffd08e;
+}
+
+.header-container {
+    color:#FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-round-item {
+    background:#FFF;
+    padding:20px;
+    margin:-20px -10px;
+    color:#000;
+}
+
+.header-container > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 10px;
+}
+
+.header-container span{
+    display:inline-block;    
+}
+
+.header-container .header-round{
+    padding:0;
+}
+
+.header-container .player-score {
+    display: block;
+    height:20px;
+    font-style:bold;
+}
+
+.site-title{
+    color:#FFF;
+    display:block;
+    text-align:center;
+}
+
+.site-title span {
+    color: #ffd08e;
+}

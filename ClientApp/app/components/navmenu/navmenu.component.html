@@ -1,0 +1,14 @@
+<div class='main-nav'>
+    <div class='navbar navbar-inverse'>
+        <div class="text-center">
+            <h1 class="site-title" *ngIf="!match.status">
+                Janken
+                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+            </h1>
+            <h1 class="site-title"  *ngIf="match.status">
+                Round <span>{{match.round}}</span> of {{match.roundMax}}
+            </h1>
+        </div>
+                                                               
+    </div>
+</div>
